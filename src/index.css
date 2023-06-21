@@ -1,0 +1,36 @@
+:root {
+	--font-size-small: clamp(0.8rem, -0.24vw + 0.86rem, 0.67rem);
+	--font-size-base: clamp(1rem, 0vw + 1rem, 1rem);
+	--font-size-h3: clamp(1.25rem, 0.45vw + 1.14rem, 1.5rem);
+	--font-size-h2: clamp(1.56rem, 1.25vw + 1.25rem, 2.25rem);
+	--font-size-h1: clamp(1.95rem, 2.59vw + 1.31rem, 3.38rem);
+
+	--primary-color: hsl(212deg 3.68% 13.84%);
+	--secondary-color: hsl(0deg 100% 85.3%);
+	--gray-color: hsl(0, 0%, 55%);
+	--white-color: hsl(0, 0%, 94%);
+	--red-color: hsl(0, 88%, 64%);
+
+	font-family: 'Inter', system-ui, Avenir, Helvetica, Arial,
+		sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: hsl(0, 0%, 94%);
+	background-color: var(--primary-color);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+::selection {
+	background-color: var(--secondary-color);
+}
+
+#root {
+	width: 100%;
+}
