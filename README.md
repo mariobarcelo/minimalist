@@ -1,14 +1,17 @@
-# SimpleList
+# MinimaList
 
 Your app to annotate tasks, reminders or anything you want!
 
-<img width="1344" alt="SimpleList" src="https://github.com/mariobarcelo/simplelist/assets/44384270/4052e589-1f48-4b4c-9b40-fbbf91982a57">
+ℹ️ This project is based on the [SimpleList](https://github.com/mariobarcelo/simplelist) project. I changed the styles and added the new functionality: Store the data on a database.
+
+![minimalist](https://github.com/mariobarcelo/minimalist/assets/44384270/439b4d61-e7ae-482f-9e41-6b74c2fc4c14)
 
 ## Features ✨
 
 - Add, mark and delete as many items as you want.
 - They will remain even if you reload the page.
 - Use it on any device.
+- 🆕 This app stores de data on a database (of your choice) through an API.
 
 ## Tech Stack 🪄
 
@@ -20,25 +23,25 @@ Your app to annotate tasks, reminders or anything you want!
 ## What I've learned 🎓
 
 - CRUD with React.
-- LocalStorage.
+- 🆕 Connect with a database using an API.
 
 ## What I used 🛠️
 
 - CSS modules.
 - Fluid typography.
 - Prop drilling.
-- [uuid](https://www.npmjs.com/package/uuid).
 - [VisuallyHidden](https://www.joshwcomeau.com/snippets/react-components/visually-hidden/) component.
+- 🆕 A simple database, in this case [Table Backend](https://tablebackend.com/).
 
 ## Going further 🚀
 
 These would be the possible next steps for this project:
 
-- Store the data on a database.
+- Have a simple functionality even without a database connection.
 - Edit the created items.
 - Possibility to export the items list.
 - Improve the accessibility.
 
 ## See it in action! 🔥
 
-[Watch the project live](https://simplelist.vercel.app/)
+[Watch the project live](https://minimalistproject.vercel.app/)
