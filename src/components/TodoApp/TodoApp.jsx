@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './TodoApp.module.css';
 import TodoForm from '../TodoForm';
-import TodoList from '../TodoList/TodoList';
+import TodoList from '../TodoList';
+import InfoBanner from '../InfoBanner';
 import { DATABASE_URL } from '../../constants';
 
 function TodoApp() {
@@ -30,6 +31,8 @@ function TodoApp() {
 	return (
 		<div className={styles.wrapper}>
 			<TodoForm itemsList={itemsList} setItemsList={setItemsList} />
+			{/* Comment this InfoBanner component to hide it */}
+			<InfoBanner />
 			<TodoList itemsList={itemsList} setItemsList={setItemsList} />
 		</div>
 	);
